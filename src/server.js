@@ -11,7 +11,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: 'http://localhost:5173', // Frontend URL
+  origin: 'https://class-reminder-orpin.vercel.app/', // Frontend URL
   credentials: true
 }));
 app.use(express.json());
